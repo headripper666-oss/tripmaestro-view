@@ -1,0 +1,648 @@
+{
+  "trips": [
+    {
+      "id": "nyc-2026",
+      "name": "New York — 2026",
+      "destination": "New York",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20",
+      "days": [
+        {
+          "id": "day-1",
+          "date": "2026-09-14",
+          "label": "Lundi 14/09",
+          "color": "#D9E1F2",
+          "icon": "✈️",
+          "order": 0
+        },
+        {
+          "id": "day-2",
+          "date": "2026-09-15",
+          "label": "Mardi 15/09",
+          "color": "#FCE4D6",
+          "icon": "🦕",
+          "order": 1
+        },
+        {
+          "id": "day-3",
+          "date": "2026-09-16",
+          "label": "Mercredi 16/09",
+          "color": "#E2EFDA",
+          "icon": "📸",
+          "order": 2
+        },
+        {
+          "id": "day-4",
+          "date": "2026-09-17",
+          "label": "Jeudi 17/09",
+          "color": "#FFF2CC",
+          "icon": "🗽",
+          "order": 3
+        },
+        {
+          "id": "day-5",
+          "date": "2026-09-18",
+          "label": "Vendredi 18/09",
+          "color": "#D9D2E9",
+          "icon": "🚁",
+          "order": 4
+        },
+        {
+          "id": "day-6",
+          "date": "2026-09-19",
+          "label": "Samedi 19/09",
+          "color": "#F4CCCC",
+          "icon": "🍕",
+          "order": 5
+        },
+        {
+          "id": "day-7",
+          "date": "2026-09-20",
+          "label": "Dimanche 20/09",
+          "color": "#D9E1F2",
+          "icon": "🛫",
+          "order": 6
+        }
+      ],
+      "items": [
+        {
+          "id": "item-0",
+          "dayId": "day-1",
+          "type": "activity",
+          "startTime": "15:00",
+          "endTime": "15:45",
+          "title": "Atterrissage Newark (EWR) + débarquement/bagages",
+          "address": "",
+          "order": 0
+        },
+        {
+          "id": "item-1",
+          "dayId": "day-1",
+          "type": "transit",
+          "startTime": "15:45",
+          "endTime": "16:30",
+          "title": "Trajet Newark → Manhattan (AirTrain + NJ Transit vers Penn Station)",
+          "address": "EWR → Penn Station",
+          "durationLabel": "~45 min",
+          "order": 1
+        },
+        {
+          "id": "item-2",
+          "dayId": "day-1",
+          "type": "transit",
+          "startTime": "16:30",
+          "endTime": "17:15",
+          "title": "Trajet Penn Station → hôtel (métro/taxi) + check-in",
+          "address": "Penn Station → hôtel",
+          "durationLabel": "15-30 min",
+          "order": 2
+        },
+        {
+          "id": "item-3",
+          "dayId": "day-1",
+          "type": "activity",
+          "startTime": "17:15",
+          "endTime": "19:00",
+          "title": "Flânerie Times Square + 5th Avenue (mise en jambes, achat pass métro 7 jours)",
+          "address": "Hôtel → Times Sq → 5th Ave",
+          "durationLabel": "à pied",
+          "order": 3
+        },
+        {
+          "id": "item-4",
+          "dayId": "day-1",
+          "type": "activity",
+          "startTime": "19:00",
+          "endTime": "21:00",
+          "title": "Dîner libre dans le quartier + retour hôtel",
+          "address": "",
+          "order": 4
+        },
+        {
+          "id": "item-5",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "09:00",
+          "endTime": "09:30",
+          "title": "Petit-déjeuner + trajet vers AMNH",
+          "address": "Hôtel → 79th St (métro B/C ou 1)",
+          "durationLabel": "15-20 min",
+          "order": 5
+        },
+        {
+          "id": "item-6",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "09:30",
+          "endTime": "13:30",
+          "title": "Musée d'Histoire Naturelle (AMNH) - visite complète",
+          "address": "Central Park West/79th St",
+          "durationLabel": "4h sur place",
+          "order": 6
+        },
+        {
+          "id": "item-7",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "13:30",
+          "endTime": "14:15",
+          "title": "Pause déjeuner rapide (Upper West Side)",
+          "address": "",
+          "durationLabel": "45 min",
+          "order": 7
+        },
+        {
+          "id": "item-8",
+          "dayId": "day-2",
+          "type": "transit",
+          "startTime": "14:15",
+          "endTime": "14:45",
+          "title": "Trajet vers Empire State Building",
+          "address": "79th St → 34th St (métro B/D/1)",
+          "durationLabel": "20-30 min",
+          "order": 8
+        },
+        {
+          "id": "item-9",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "14:45",
+          "endTime": "16:15",
+          "title": "Visite Empire State Building (billet + attente + observatoire)",
+          "address": "34th St, Midtown",
+          "durationLabel": "1h30",
+          "order": 9
+        },
+        {
+          "id": "item-10",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "16:15",
+          "endTime": "18:00",
+          "title": "Flânerie Chinatown (métro vers Canal St)",
+          "address": "34th St → Chinatown",
+          "durationLabel": "25 min trajet + flânerie libre",
+          "order": 10
+        },
+        {
+          "id": "item-11",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "18:00",
+          "endTime": "20:00",
+          "title": "Dîner à Chinatown/Little Italy + retour hôtel",
+          "address": "",
+          "order": 11
+        },
+        {
+          "id": "item-12",
+          "dayId": "day-3",
+          "type": "transit",
+          "startTime": "09:30",
+          "endTime": "10:00",
+          "title": "Trajet vers lieu du shooting photo (selon studio/quartier choisi)",
+          "address": "Hôtel → lieu shooting",
+          "durationLabel": "variable, prévoir 20-30 min",
+          "order": 12
+        },
+        {
+          "id": "item-13",
+          "dayId": "day-3",
+          "type": "activity",
+          "startTime": "10:00",
+          "endTime": "12:00",
+          "title": "Shooting photo professionnel (2h)",
+          "address": "",
+          "durationLabel": "2h",
+          "order": 13
+        },
+        {
+          "id": "item-14",
+          "dayId": "day-3",
+          "type": "activity",
+          "startTime": "12:00",
+          "endTime": "13:00",
+          "title": "Déjeuner libre + retour hôtel pour se rafraîchir",
+          "address": "",
+          "durationLabel": "30-45 min",
+          "order": 14
+        },
+        {
+          "id": "item-15",
+          "dayId": "day-3",
+          "type": "activity",
+          "startTime": "13:00",
+          "endTime": "15:00",
+          "title": "Flânerie Broadway / Theater District + photos",
+          "address": "Midtown",
+          "durationLabel": "libre",
+          "order": 15
+        },
+        {
+          "id": "item-16",
+          "dayId": "day-3",
+          "type": "activity",
+          "startTime": "15:00",
+          "endTime": "17:00",
+          "title": "Temps libre / repos avant la soirée (shopping 5th Ave si souhaité)",
+          "address": "",
+          "durationLabel": "libre",
+          "order": 16
+        },
+        {
+          "id": "item-17",
+          "dayId": "day-3",
+          "type": "transit",
+          "startTime": "19:00",
+          "endTime": "19:30",
+          "title": "Trajet vers point de départ tour speakeasy",
+          "address": "Hôtel → 1er bar (souvent LES/Village)",
+          "durationLabel": "20-30 min",
+          "order": 17
+        },
+        {
+          "id": "item-18",
+          "dayId": "day-3",
+          "type": "activity",
+          "startTime": "19:30",
+          "endTime": "22:00",
+          "title": "Visite guidée de 3 speakeasy (tour organisé, ~2h30)",
+          "address": "Lower East Side / Greenwich Village",
+          "durationLabel": "2h30",
+          "order": 18
+        },
+        {
+          "id": "item-19",
+          "dayId": "day-3",
+          "type": "activity",
+          "startTime": "22:00",
+          "endTime": "22:30",
+          "title": "Retour hôtel en métro",
+          "address": "",
+          "durationLabel": "20-30 min",
+          "order": 19
+        },
+        {
+          "id": "item-20",
+          "dayId": "day-4",
+          "type": "activity",
+          "startTime": "08:30",
+          "endTime": "09:00",
+          "title": "Petit-déjeuner + trajet vers Battery Park",
+          "address": "Hôtel → Battery Park (métro 1 ou 4/5)",
+          "durationLabel": "20-30 min",
+          "order": 20
+        },
+        {
+          "id": "item-21",
+          "dayId": "day-4",
+          "type": "activity",
+          "startTime": "09:00",
+          "endTime": "09:30",
+          "title": "Arrivée en avance, file sécurité Statue City Cruises",
+          "address": "Castle Clinton, Battery Park",
+          "durationLabel": "30 min avant créneau",
+          "order": 21
+        },
+        {
+          "id": "item-22",
+          "dayId": "day-4",
+          "type": "activity",
+          "startTime": "09:30",
+          "endTime": "12:30",
+          "title": "Croisière + visite Liberty Island + Ellis Island (aller-retour)",
+          "address": "Battery Park ↔ îles",
+          "durationLabel": "3h",
+          "order": 22
+        },
+        {
+          "id": "item-23",
+          "dayId": "day-4",
+          "type": "activity",
+          "startTime": "12:30",
+          "endTime": "13:15",
+          "title": "Déjeuner rapide vers Financial District",
+          "address": "Battery Park → FiDi",
+          "durationLabel": "15 min trajet + repas",
+          "order": 23
+        },
+        {
+          "id": "item-24",
+          "dayId": "day-4",
+          "type": "transit",
+          "startTime": "13:15",
+          "endTime": "13:30",
+          "title": "Trajet vers 9/11 Memorial",
+          "address": "Battery Park → WTC (métro ou 10 min à pied)",
+          "durationLabel": "10-15 min",
+          "order": 24
+        },
+        {
+          "id": "item-25",
+          "dayId": "day-4",
+          "type": "activity",
+          "startTime": "13:30",
+          "endTime": "16:00",
+          "title": "Mémorial du 11 septembre + Musée (visite complète)",
+          "address": "180 Greenwich St",
+          "durationLabel": "2h30",
+          "order": 25
+        },
+        {
+          "id": "item-26",
+          "dayId": "day-4",
+          "type": "activity",
+          "startTime": "16:00",
+          "endTime": "18:00",
+          "title": "Flânerie Financial District / retour hôtel tranquille",
+          "address": "",
+          "durationLabel": "libre",
+          "order": 26
+        },
+        {
+          "id": "item-27",
+          "dayId": "day-5",
+          "type": "activity",
+          "startTime": "08:00",
+          "endTime": "08:30",
+          "title": "Petit-déjeuner + trajet vers Downtown Manhattan Heliport",
+          "address": "Hôtel → South Ferry (métro 1)",
+          "durationLabel": "20-30 min",
+          "order": 27
+        },
+        {
+          "id": "item-28",
+          "dayId": "day-5",
+          "type": "activity",
+          "startTime": "08:30",
+          "endTime": "09:00",
+          "title": "Check-in héliport (30 min avant vol)",
+          "address": "Pier 6, East River",
+          "durationLabel": "30 min",
+          "order": 28
+        },
+        {
+          "id": "item-29",
+          "dayId": "day-5",
+          "type": "activity",
+          "startTime": "09:00",
+          "endTime": "09:30",
+          "title": "Vol hélicoptère 30 minutes au-dessus de NYC",
+          "address": "",
+          "durationLabel": "30 min",
+          "order": 29
+        },
+        {
+          "id": "item-30",
+          "dayId": "day-5",
+          "type": "transit",
+          "startTime": "09:30",
+          "endTime": "10:15",
+          "title": "Trajet vers Gun For Hire (Uber/Lyft depuis Downtown Manhattan, ~17 miles)",
+          "address": "South Ferry → Woodland Park NJ",
+          "durationLabel": "40-45 min en voiture",
+          "order": 30
+        },
+        {
+          "id": "item-31",
+          "dayId": "day-5",
+          "type": "activity",
+          "startTime": "10:15",
+          "endTime": "12:00",
+          "title": "Stand de tir Gun For Hire (session ~1h + attente/briefing sécurité)",
+          "address": "Woodland Park, NJ",
+          "durationLabel": "1h45 sur place",
+          "order": 31
+        },
+        {
+          "id": "item-32",
+          "dayId": "day-5",
+          "type": "activity",
+          "startTime": "12:00",
+          "endTime": "12:45",
+          "title": "Retour vers Manhattan (Uber/Lyft)",
+          "address": "Woodland Park → Manhattan",
+          "durationLabel": "40-45 min",
+          "order": 32
+        },
+        {
+          "id": "item-33",
+          "dayId": "day-5",
+          "type": "activity",
+          "startTime": "12:45",
+          "endTime": "13:30",
+          "title": "Déjeuner tardif libre",
+          "address": "",
+          "durationLabel": "45 min",
+          "order": 33
+        },
+        {
+          "id": "item-34",
+          "dayId": "day-5",
+          "type": "activity",
+          "startTime": "13:30",
+          "endTime": "17:00",
+          "title": "Après-midi libre : Coney Island (plage, promenade, Luna Park)",
+          "address": "Manhattan → Coney Island (métro D/F/N/Q, ~50 min)",
+          "durationLabel": "aller-retour ~1h40 + visite",
+          "order": 34
+        },
+        {
+          "id": "item-35",
+          "dayId": "day-5",
+          "type": "activity",
+          "startTime": "17:00",
+          "endTime": "19:00",
+          "title": "Retour + dîner libre",
+          "address": "",
+          "order": 35
+        },
+        {
+          "id": "item-36",
+          "dayId": "day-6",
+          "type": "transit",
+          "startTime": "10:30",
+          "endTime": "11:00",
+          "title": "Trajet vers point de départ food tour (souvent LES/Chinatown)",
+          "address": "Hôtel → Lower East Side",
+          "durationLabel": "20-30 min",
+          "order": 36
+        },
+        {
+          "id": "item-37",
+          "dayId": "day-6",
+          "type": "activity",
+          "startTime": "11:00",
+          "endTime": "13:30",
+          "title": "Food tour à pied (2h30, 6-8 dégustations)",
+          "address": "Lower East Side / Chinatown / Little Italy",
+          "durationLabel": "2h30",
+          "order": 37
+        },
+        {
+          "id": "item-38",
+          "dayId": "day-6",
+          "type": "activity",
+          "startTime": "13:30",
+          "endTime": "16:00",
+          "title": "Flânerie digestive : SoHo, Greenwich Village, Washington Square",
+          "address": "Quartiers voisins, à pied",
+          "durationLabel": "libre",
+          "order": 38
+        },
+        {
+          "id": "item-39",
+          "dayId": "day-6",
+          "type": "transit",
+          "startTime": "16:00",
+          "endTime": "16:45",
+          "title": "Trajet vers Times Square / Broadway",
+          "address": "Village → Times Sq (métro)",
+          "durationLabel": "20-30 min",
+          "order": 39
+        },
+        {
+          "id": "item-40",
+          "dayId": "day-6",
+          "type": "activity",
+          "startTime": "16:45",
+          "endTime": "19:00",
+          "title": "Flânerie Times Square + Broadway (ambiance de nuit tombante, boutiques)",
+          "address": "Midtown",
+          "durationLabel": "libre",
+          "order": 40
+        },
+        {
+          "id": "item-41",
+          "dayId": "day-6",
+          "type": "activity",
+          "startTime": "19:00",
+          "endTime": "21:30",
+          "title": "Dîner + soirée libre (spectacle Broadway optionnel si billets pris à part)",
+          "address": "",
+          "order": 41
+        },
+        {
+          "id": "item-42",
+          "dayId": "day-7",
+          "type": "activity",
+          "startTime": "09:00",
+          "endTime": "09:30",
+          "title": "Petit-déjeuner + check-out hôtel (bagages)",
+          "address": "",
+          "durationLabel": "30 min",
+          "order": 42
+        },
+        {
+          "id": "item-43",
+          "dayId": "day-7",
+          "type": "activity",
+          "startTime": "09:30",
+          "endTime": "11:30",
+          "title": "Dernière balade : Central Park ou 5th Avenue / shopping souvenirs",
+          "address": "Selon hôtel",
+          "durationLabel": "2h max",
+          "order": 43
+        },
+        {
+          "id": "item-44",
+          "dayId": "day-7",
+          "type": "activity",
+          "startTime": "11:30",
+          "endTime": "12:15",
+          "title": "Déjeuner léger près de Penn Station",
+          "address": "",
+          "durationLabel": "45 min",
+          "order": 44
+        },
+        {
+          "id": "item-45",
+          "dayId": "day-7",
+          "type": "transit",
+          "startTime": "12:15",
+          "endTime": "13:00",
+          "title": "Trajet vers Newark (NJ Transit + AirTrain depuis Penn Station)",
+          "address": "Penn Station → EWR",
+          "durationLabel": "45 min",
+          "order": 45
+        },
+        {
+          "id": "item-46",
+          "dayId": "day-7",
+          "type": "activity",
+          "startTime": "13:00",
+          "endTime": "15:30",
+          "title": "Marge de sécurité + enregistrement + sécurité aéroport",
+          "address": "EWR",
+          "durationLabel": "2h30 avant vol (recommandé)",
+          "order": 46
+        },
+        {
+          "id": "item-47",
+          "dayId": "day-7",
+          "type": "activity",
+          "startTime": "15:30",
+          "endTime": "17:45",
+          "title": "Attente porte d'embarquement",
+          "address": "EWR",
+          "order": 47
+        },
+        {
+          "id": "item-48",
+          "dayId": "day-7",
+          "type": "activity",
+          "startTime": "17:45",
+          "endTime": "",
+          "title": "Décollage Newark",
+          "address": "",
+          "order": 48
+        }
+      ],
+      "notes": [
+        {
+          "id": "note-1",
+          "text": "Musée du 9/11 — Fermé le mardi (sauf exceptions) - placé le jeudi dans ce planning."
+        },
+        {
+          "id": "note-2",
+          "text": "Gun For Hire (NJ) — Pas d'accès métro direct. Prévoir Uber/Lyft (~40-45 min depuis Manhattan) ou navette privée. Aucun permis requis, juste une pièce d'identité. Ne pas venir seul(e) sans arme personnelle."
+        },
+        {
+          "id": "note-3",
+          "text": "Croisière Statue de la Liberté — Acheter les billets à l'avance sur statuecitycruises.com. Entrer avant 13h-14h pour visiter les deux îles (Liberty + Ellis). Sécurité type aéroport à prévoir (20-30 min)."
+        },
+        {
+          "id": "note-4",
+          "text": "Empire State Building — Réserver un créneau horaire à l'avance (skip-the-line) pour réduire l'attente."
+        },
+        {
+          "id": "note-5",
+          "text": "AMNH (Musée Histoire Naturelle) — Ouvert tous les jours 10h-17h30, dernière entrée 45 min avant fermeture."
+        },
+        {
+          "id": "note-6",
+          "text": "Hélicoptère HeliNY — Départ Downtown Manhattan Heliport (Pier 6), à 5 min à pied de South Ferry (ligne 1). Check-in 30 min avant le vol."
+        },
+        {
+          "id": "note-7",
+          "text": "Food tour / Speakeasy tour / Shooting photo — Réserver ces 3 prestations à l'avance ; les horaires exacts dépendront du prestataire choisi - le planning prévoit des créneaux matin/soir flexibles."
+        },
+        {
+          "id": "note-8",
+          "text": "Trajet Newark ↔ Manhattan — AirTrain + NJ Transit jusqu'à Penn Station : ~30-45 min, environ 17-19$ par personne. C'est l'option la plus rapide et économique."
+        },
+        {
+          "id": "note-9",
+          "text": "Marge aéroport retour — Prévoir 2h30 avant un vol international/long-courrier au départ de Newark (contrôle sécurité + enregistrement)."
+        },
+        {
+          "id": "note-10",
+          "text": "Pass métro — Prendre une carte OMNY ou un forfait 7 jours dès l'arrivée pour fluidifier tous les trajets en métro."
+        }
+      ],
+      "createdAt": "2026-09-01T05:01:43.688Z",
+      "updatedAt": "2026-09-01T06:09:53.472Z"
+    }
+  ],
+  "generatedAt": "2026-09-01T06:10:01.536Z"
+}
