@@ -207,10 +207,10 @@
         },
         {
           "id": "item-13",
-          "dayId": "day-7",
+          "dayId": "day-3",
           "type": "activity",
-          "startTime": "09:15",
-          "endTime": "11:15",
+          "startTime": "10:00",
+          "endTime": "12:00",
           "title": "Shooting photo professionnel (2h)",
           "address": "",
           "durationLabel": "2h",
@@ -640,9 +640,9 @@
           "text": "Pass métro — Prendre une carte OMNY ou un forfait 7 jours dès l'arrivée pour fluidifier tous les trajets en métro."
         }
       ],
-      "createdAt": "2026-09-01T05:01:43.688Z",
-      "updatedAt": "2026-09-01T11:42:57.469Z"
+      "createdAt": "2026-09-01T11:46:51.396Z",
+      "updatedAt": "2026-09-01T11:47:17.251Z"
     }
   ],
-  "generatedAt": "2026-09-01T11:43:05.481Z"
+  "generatedAt": "2026-09-01T11:47:25.258Z"
 }
