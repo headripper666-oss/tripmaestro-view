@@ -69,8 +69,8 @@
           "id": "item-0",
           "dayId": "day-1",
           "type": "activity",
-          "startTime": "16:45",
-          "endTime": "17:30",
+          "startTime": "16:30",
+          "endTime": "15:45",
           "title": "Atterrissage Newark (EWR) + débarquement/bagages",
           "address": "",
           "order": 0
@@ -641,8 +641,8 @@
         }
       ],
       "createdAt": "2026-09-01T05:01:43.688Z",
-      "updatedAt": "2026-09-01T06:52:25.561Z"
+      "updatedAt": "2026-09-01T07:07:37.304Z"
     }
   ],
-  "generatedAt": "2026-09-01T06:52:33.586Z"
+  "generatedAt": "2026-09-01T07:07:45.312Z"
 }
