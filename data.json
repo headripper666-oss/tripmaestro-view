@@ -20,7 +20,7 @@
           "date": "2026-09-15",
           "label": "Mardi 15/09",
           "color": "#FCE4D6",
-          "icon": "🦕",
+          "icon": "🚁",
           "order": 1
         },
         {
@@ -44,7 +44,7 @@
           "date": "2026-09-18",
           "label": "Vendredi 18/09",
           "color": "#D9D2E9",
-          "icon": "🚁",
+          "icon": "🍜",
           "order": 4
         },
         {
@@ -52,7 +52,7 @@
           "date": "2026-09-19",
           "label": "Samedi 19/09",
           "color": "#F4CCCC",
-          "icon": "🍕",
+          "icon": "🎡",
           "order": 5
         },
         {
@@ -119,87 +119,110 @@
           "order": 4
         },
         {
-          "id": "item-5",
-          "dayId": "day-2",
-          "type": "activity",
-          "startTime": "09:00",
-          "endTime": "09:30",
-          "title": "Petit-déjeuner + trajet vers AMNH",
-          "address": "Hôtel → 79th St (métro B/C ou 1)",
-          "durationLabel": "15-20 min",
-          "order": 0
-        },
-        {
-          "id": "item-6",
-          "dayId": "day-2",
-          "type": "activity",
-          "startTime": "09:30",
-          "endTime": "13:30",
-          "title": "Musée d'Histoire Naturelle (AMNH) - visite complète",
-          "address": "Central Park West/79th St",
-          "durationLabel": "4h sur place",
-          "order": 1
-        },
-        {
-          "id": "item-7",
-          "dayId": "day-2",
-          "type": "activity",
-          "startTime": "13:30",
-          "endTime": "14:15",
-          "title": "Pause déjeuner rapide (Upper West Side)",
-          "address": "",
-          "durationLabel": "45 min",
-          "order": 2
-        },
-        {
-          "id": "item-8",
+          "id": "item-heli-transit",
           "dayId": "day-2",
           "type": "transit",
-          "startTime": "15:00",
-          "endTime": "15:30",
-          "title": "Trajet vers Downtown Manhattan Heliport",
-          "address": "AMNH → South Ferry (métro 1)",
-          "durationLabel": "30 min",
-          "order": 3
+          "startTime": "09:00",
+          "endTime": "09:30",
+          "title": "Trajet hôtel → Downtown Manhattan Heliport",
+          "address": "Hôtel → South Ferry (métro 1) → Pier 6",
+          "durationLabel": "25-30 min",
+          "order": 0
         },
         {
           "id": "item-9",
           "dayId": "day-2",
           "type": "activity",
-          "startTime": "16:00",
-          "endTime": "16:30",
+          "startTime": "10:00",
+          "endTime": "10:30",
           "title": "Vol hélicoptère 30 minutes au-dessus de NYC",
           "address": "Downtown Manhattan Heliport (Pier 6)",
-          "durationLabel": "30 min (arrivée 15:30 pour check-in)",
+          "durationLabel": "30 min (arrivée 9h30 pour check-in)",
+          "order": 1
+        },
+        {
+          "id": "item-5",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "10:30",
+          "endTime": "11:15",
+          "title": "Trajet retour + petit-déjeuner tardif vers AMNH",
+          "address": "Heliport → 79th St (métro 1)",
+          "durationLabel": "35-40 min",
+          "order": 2
+        },
+        {
+          "id": "item-6",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "11:15",
+          "endTime": "15:00",
+          "title": "Musée d'Histoire Naturelle (AMNH) - visite",
+          "address": "Central Park West/79th St",
+          "durationLabel": "3h45 sur place",
+          "order": 3
+        },
+        {
+          "id": "item-7",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "15:00",
+          "endTime": "15:45",
+          "title": "Pause déjeuner tardif / goûter (Upper West Side)",
+          "address": "",
+          "durationLabel": "45 min",
           "order": 4
         },
         {
-          "id": "item-10",
-          "dayId": "day-3",
-          "type": "activity",
-          "startTime": "19:00",
-          "endTime": "20:45",
-          "title": "Flânerie Chinatown (métro vers Canal St)",
-          "address": "34th St → Chinatown",
-          "durationLabel": "25 min trajet + flânerie libre",
+          "id": "item-reorg-1",
+          "dayId": "day-2",
+          "type": "transit",
+          "startTime": "16:45",
+          "endTime": "17:15",
+          "title": "Trajet vers Midtown (métro/taxi)",
+          "address": "AMNH → 34th St",
+          "durationLabel": "30 min",
           "order": 5
         },
         {
-          "id": "item-11",
-          "dayId": "day-3",
+          "id": "item-reorg-2",
+          "dayId": "day-2",
           "type": "activity",
-          "startTime": "20:45",
-          "endTime": "22:00",
-          "title": "Dîner à Chinatown/Little Italy + retour hôtel",
-          "address": "",
+          "startTime": "17:15",
+          "endTime": "19:00",
+          "title": "Temps libre / shopping 5th Avenue avant l'Empire State",
+          "address": "Midtown",
+          "durationLabel": "libre",
           "order": 6
+        },
+        {
+          "id": "item-reorg-3",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "19:00",
+          "endTime": "20:30",
+          "title": "Visite Empire State Building (billet + attente + observatoire, vue de nuit)",
+          "address": "34th St, Midtown",
+          "durationLabel": "1h30",
+          "order": 7
+        },
+        {
+          "id": "item-reorg-4",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "20:30",
+          "endTime": "22:00",
+          "title": "Dîner tardif dans Midtown + retour hôtel",
+          "address": "",
+          "durationLabel": "",
+          "order": 8
         },
         {
           "id": "item-12",
           "dayId": "day-3",
           "type": "transit",
-          "startTime": "09:30",
-          "endTime": "10:00",
+          "startTime": "09:00",
+          "endTime": "09:30",
           "title": "Trajet vers lieu du shooting photo (selon studio/quartier choisi)",
           "address": "Hôtel → lieu shooting",
           "durationLabel": "variable, prévoir 20-30 min",
@@ -213,7 +236,7 @@
           "endTime": "12:00",
           "title": "Shooting photo professionnel (2h)",
           "address": "",
-          "durationLabel": "2h",
+          "durationLabel": "2h (arrivée 9h30 pour prep)",
           "order": 1
         },
         {
@@ -239,15 +262,25 @@
           "order": 3
         },
         {
-          "id": "item-16",
-          "dayId": "day-4",
+          "id": "item-10",
+          "dayId": "day-3",
           "type": "activity",
-          "startTime": "14:30",
-          "endTime": "18:30",
-          "title": "Temps libre / repos avant la soirée (shopping 5th Ave si souhaité)",
-          "address": "",
-          "durationLabel": "libre",
+          "startTime": "18:30",
+          "endTime": "20:15",
+          "title": "Flânerie Chinatown (métro vers Canal St)",
+          "address": "Midtown → Chinatown",
+          "durationLabel": "25 min trajet + flânerie libre",
           "order": 4
+        },
+        {
+          "id": "item-11",
+          "dayId": "day-3",
+          "type": "activity",
+          "startTime": "20:15",
+          "endTime": "22:00",
+          "title": "Dîner à Chinatown/Little Italy + retour hôtel",
+          "address": "",
+          "order": 5
         },
         {
           "id": "item-20",
@@ -306,10 +339,10 @@
         },
         {
           "id": "item-25",
-          "dayId": "day-3",
+          "dayId": "day-4",
           "type": "activity",
-          "startTime": "15:45",
-          "endTime": "18:15",
+          "startTime": "13:30",
+          "endTime": "16:00",
           "title": "Mémorial du 11 septembre + Musée (visite complète)",
           "address": "180 Greenwich St",
           "durationLabel": "2h30",
@@ -325,6 +358,39 @@
           "address": "",
           "durationLabel": "libre",
           "order": 6
+        },
+        {
+          "id": "item-reorg-5",
+          "dayId": "day-4",
+          "type": "transit",
+          "startTime": "18:15",
+          "endTime": "18:55",
+          "title": "Trajet vers point de départ tour speakeasy",
+          "address": "Financial District → 1er bar (souvent LES/Village)",
+          "durationLabel": "35-40 min",
+          "order": 7
+        },
+        {
+          "id": "item-reorg-6",
+          "dayId": "day-4",
+          "type": "activity",
+          "startTime": "18:55",
+          "endTime": "21:25",
+          "title": "Visite guidée de 3 speakeasy (tour organisé, ~2h30)",
+          "address": "Lower East Side / Greenwich Village",
+          "durationLabel": "2h30",
+          "order": 8
+        },
+        {
+          "id": "item-reorg-7",
+          "dayId": "day-4",
+          "type": "activity",
+          "startTime": "21:25",
+          "endTime": "22:00",
+          "title": "Retour hôtel en métro",
+          "address": "",
+          "durationLabel": "20-30 min",
+          "order": 9
         },
         {
           "id": "item-27",
@@ -406,13 +472,35 @@
         {
           "id": "item-34",
           "dayId": "day-6",
+          "type": "transit",
+          "startTime": "09:30",
+          "endTime": "10:30",
+          "title": "Petit-déjeuner + trajet vers Coney Island",
+          "address": "Hôtel → Coney Island (métro D/F/N/Q)",
+          "durationLabel": "~50 min",
+          "order": 0
+        },
+        {
+          "id": "item-35",
+          "dayId": "day-6",
           "type": "activity",
           "startTime": "10:30",
           "endTime": "17:00",
           "title": "Coney Island : plage, promenade, Luna Park",
-          "address": "Manhattan → Coney Island (métro D/F/N/Q, ~50 min)",
+          "address": "Coney Island",
           "durationLabel": "journée",
           "order": 1
+        },
+        {
+          "id": "item-36",
+          "dayId": "day-6",
+          "type": "activity",
+          "startTime": "17:00",
+          "endTime": "19:30",
+          "title": "Retour Manhattan + dîner libre",
+          "address": "",
+          "durationLabel": "",
+          "order": 2
         },
         {
           "id": "item-42",
@@ -490,109 +578,20 @@
           "order": 6
         },
         {
-          "id": "item-reorg-1",
-          "dayId": "day-2",
-          "type": "transit",
-          "startTime": "16:30",
-          "endTime": "17:15",
-          "title": "Trajet retour vers Midtown (métro/taxi)",
-          "address": "Downtown Manhattan Heliport → 34th St",
-          "durationLabel": "40-45 min",
+          "id": "item-1788280400941",
+          "dayId": "day-1",
+          "type": "activity",
+          "startTime": "21:00",
+          "endTime": "21:30",
+          "title": "Test activité créée",
+          "address": "",
           "order": 5
-        },
-        {
-          "id": "item-reorg-2",
-          "dayId": "day-2",
-          "type": "activity",
-          "startTime": "17:15",
-          "endTime": "19:00",
-          "title": "Temps libre / shopping 5th Avenue avant l'Empire State",
-          "address": "Midtown",
-          "durationLabel": "libre",
-          "order": 6
-        },
-        {
-          "id": "item-reorg-3",
-          "dayId": "day-2",
-          "type": "activity",
-          "startTime": "19:00",
-          "endTime": "20:30",
-          "title": "Visite Empire State Building (billet + attente + observatoire, vue de nuit)",
-          "address": "34th St, Midtown",
-          "durationLabel": "1h30",
-          "order": 7
-        },
-        {
-          "id": "item-reorg-4",
-          "dayId": "day-2",
-          "type": "activity",
-          "startTime": "20:30",
-          "endTime": "22:00",
-          "title": "Dîner tardif dans Midtown + retour hôtel",
-          "address": "",
-          "durationLabel": "",
-          "order": 8
-        },
-        {
-          "id": "item-reorg-5",
-          "dayId": "day-4",
-          "type": "transit",
-          "startTime": "18:15",
-          "endTime": "18:55",
-          "title": "Trajet vers point de départ tour speakeasy",
-          "address": "Financial District → 1er bar (souvent LES/Village)",
-          "durationLabel": "35-40 min",
-          "order": 7
-        },
-        {
-          "id": "item-reorg-6",
-          "dayId": "day-4",
-          "type": "activity",
-          "startTime": "18:55",
-          "endTime": "21:25",
-          "title": "Visite guidée de 3 speakeasy (tour organisé, ~2h30)",
-          "address": "Lower East Side / Greenwich Village",
-          "durationLabel": "2h30",
-          "order": 8
-        },
-        {
-          "id": "item-reorg-7",
-          "dayId": "day-4",
-          "type": "activity",
-          "startTime": "21:25",
-          "endTime": "22:00",
-          "title": "Retour hôtel en métro",
-          "address": "",
-          "durationLabel": "20-30 min",
-          "order": 9
-        },
-        {
-          "id": "item-reorg-8",
-          "dayId": "day-6",
-          "type": "activity",
-          "startTime": "09:30",
-          "endTime": "10:30",
-          "title": "Petit-déjeuner + trajet vers Coney Island",
-          "address": "Hôtel → Coney Island (métro D/F/N/Q)",
-          "durationLabel": "~50 min",
-          "order": 0
-        },
-        {
-          "id": "item-reorg-9",
-          "dayId": "day-6",
-          "type": "activity",
-          "startTime": "17:00",
-          "endTime": "19:30",
-          "title": "Retour Manhattan + dîner libre",
-          "address": "",
-          "durationLabel": "",
-          "order": 2
         }
       ],
       "notes": [
         {
           "id": "note-1",
-          "text": "Musée du 9/11 — Fermé le mardi (sauf exceptions) - placé le jeudi dans ce planning."
+          "text": "Musée du 9/11 — Fermé le mardi (sauf exceptions) - placé le jeudi 17/09 dans ce planning."
         },
         {
           "id": "note-2",
@@ -604,19 +603,19 @@
         },
         {
           "id": "note-4",
-          "text": "Empire State Building — Réserver un créneau horaire à l'avance (skip-the-line) pour réduire l'attente."
+          "text": "Empire State Building — Réservé le 15/09 à 19h (billet + attente + observatoire, vue de nuit)."
         },
         {
           "id": "note-5",
-          "text": "AMNH (Musée Histoire Naturelle) — Ouvert tous les jours 10h-17h30, dernière entrée 45 min avant fermeture."
+          "text": "AMNH (Musée Histoire Naturelle) — Ouvert tous les jours 10h-17h30, dernière entrée 45 min avant fermeture. Visite raccourcie le 15/09 pour laisser la matinée à l'hélicoptère."
         },
         {
           "id": "note-6",
-          "text": "Hélicoptère HeliNY — Départ Downtown Manhattan Heliport (Pier 6), à 5 min à pied de South Ferry (ligne 1). Check-in 30 min avant le vol."
+          "text": "Hélicoptère HeliNY — Départ Downtown Manhattan Heliport (Pier 6), à 5 min à pied de South Ferry (ligne 1). Vol à 10h le 15/09, check-in 30 min avant (9h30)."
         },
         {
           "id": "note-7",
-          "text": "Food tour / Speakeasy tour / Shooting photo — Réserver ces 3 prestations à l'avance ; les horaires exacts dépendront du prestataire choisi - le planning prévoit des créneaux matin/soir flexibles."
+          "text": "Food tour (18/09 10h05) / Speakeasy tour (17/09 18h55) / Shooting photo (16/09 10h) — horaires confirmés."
         },
         {
           "id": "note-8",
@@ -632,8 +631,8 @@
         }
       ],
       "createdAt": "2026-09-01T12:24:16.202Z",
-      "updatedAt": "2026-09-01T15:39:33.676Z"
+      "updatedAt": "2026-09-01T16:33:23.882Z"
     }
   ],
-  "generatedAt": "2026-09-01T15:39:41.703Z"
+  "generatedAt": "2026-09-01T16:33:31.911Z"
 }
