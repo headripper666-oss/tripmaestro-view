@@ -127,7 +127,7 @@
           "title": "Petit-déjeuner + trajet vers AMNH",
           "address": "Hôtel → 79th St (métro B/C ou 1)",
           "durationLabel": "15-20 min",
-          "order": 5
+          "order": 0
         },
         {
           "id": "item-6",
@@ -138,7 +138,7 @@
           "title": "Musée d'Histoire Naturelle (AMNH) - visite complète",
           "address": "Central Park West/79th St",
           "durationLabel": "4h sur place",
-          "order": 6
+          "order": 1
         },
         {
           "id": "item-7",
@@ -149,50 +149,50 @@
           "title": "Pause déjeuner rapide (Upper West Side)",
           "address": "",
           "durationLabel": "45 min",
-          "order": 7
+          "order": 2
         },
         {
           "id": "item-8",
           "dayId": "day-2",
           "type": "transit",
-          "startTime": "14:15",
-          "endTime": "14:45",
-          "title": "Trajet vers Empire State Building",
-          "address": "79th St → 34th St (métro B/D/1)",
-          "durationLabel": "20-30 min",
-          "order": 8
+          "startTime": "15:00",
+          "endTime": "15:30",
+          "title": "Trajet vers Downtown Manhattan Heliport",
+          "address": "AMNH → South Ferry (métro 1)",
+          "durationLabel": "30 min",
+          "order": 3
         },
         {
           "id": "item-9",
           "dayId": "day-2",
           "type": "activity",
-          "startTime": "14:45",
-          "endTime": "16:15",
-          "title": "Visite Empire State Building (billet + attente + observatoire)",
-          "address": "34th St, Midtown",
-          "durationLabel": "1h30",
-          "order": 9
+          "startTime": "16:00",
+          "endTime": "16:30",
+          "title": "Vol hélicoptère 30 minutes au-dessus de NYC",
+          "address": "Downtown Manhattan Heliport (Pier 6)",
+          "durationLabel": "30 min (arrivée 15:30 pour check-in)",
+          "order": 4
         },
         {
           "id": "item-10",
-          "dayId": "day-2",
+          "dayId": "day-3",
           "type": "activity",
-          "startTime": "16:15",
-          "endTime": "18:00",
+          "startTime": "19:00",
+          "endTime": "20:45",
           "title": "Flânerie Chinatown (métro vers Canal St)",
           "address": "34th St → Chinatown",
           "durationLabel": "25 min trajet + flânerie libre",
-          "order": 10
+          "order": 5
         },
         {
           "id": "item-11",
-          "dayId": "day-2",
+          "dayId": "day-3",
           "type": "activity",
-          "startTime": "18:00",
-          "endTime": "20:00",
+          "startTime": "20:45",
+          "endTime": "22:00",
           "title": "Dîner à Chinatown/Little Italy + retour hôtel",
           "address": "",
-          "order": 11
+          "order": 6
         },
         {
           "id": "item-12",
@@ -203,7 +203,7 @@
           "title": "Trajet vers lieu du shooting photo (selon studio/quartier choisi)",
           "address": "Hôtel → lieu shooting",
           "durationLabel": "variable, prévoir 20-30 min",
-          "order": 12
+          "order": 0
         },
         {
           "id": "item-13",
@@ -214,7 +214,7 @@
           "title": "Shooting photo professionnel (2h)",
           "address": "",
           "durationLabel": "2h",
-          "order": 13
+          "order": 1
         },
         {
           "id": "item-14",
@@ -225,7 +225,7 @@
           "title": "Déjeuner libre + retour hôtel pour se rafraîchir",
           "address": "",
           "durationLabel": "30-45 min",
-          "order": 14
+          "order": 2
         },
         {
           "id": "item-15",
@@ -236,51 +236,18 @@
           "title": "Flânerie Broadway / Theater District + photos",
           "address": "Midtown",
           "durationLabel": "libre",
-          "order": 15
+          "order": 3
         },
         {
           "id": "item-16",
           "dayId": "day-3",
           "type": "activity",
           "startTime": "15:00",
-          "endTime": "17:00",
+          "endTime": "19:00",
           "title": "Temps libre / repos avant la soirée (shopping 5th Ave si souhaité)",
           "address": "",
           "durationLabel": "libre",
-          "order": 16
-        },
-        {
-          "id": "item-17",
-          "dayId": "day-3",
-          "type": "transit",
-          "startTime": "19:00",
-          "endTime": "19:30",
-          "title": "Trajet vers point de départ tour speakeasy",
-          "address": "Hôtel → 1er bar (souvent LES/Village)",
-          "durationLabel": "20-30 min",
-          "order": 17
-        },
-        {
-          "id": "item-18",
-          "dayId": "day-3",
-          "type": "activity",
-          "startTime": "19:30",
-          "endTime": "22:00",
-          "title": "Visite guidée de 3 speakeasy (tour organisé, ~2h30)",
-          "address": "Lower East Side / Greenwich Village",
-          "durationLabel": "2h30",
-          "order": 18
-        },
-        {
-          "id": "item-19",
-          "dayId": "day-3",
-          "type": "activity",
-          "startTime": "22:00",
-          "endTime": "22:30",
-          "title": "Retour hôtel en métro",
-          "address": "",
-          "durationLabel": "20-30 min",
-          "order": 19
+          "order": 4
         },
         {
           "id": "item-20",
@@ -291,7 +258,7 @@
           "title": "Petit-déjeuner + trajet vers Battery Park",
           "address": "Hôtel → Battery Park (métro 1 ou 4/5)",
           "durationLabel": "20-30 min",
-          "order": 20
+          "order": 0
         },
         {
           "id": "item-21",
@@ -302,7 +269,7 @@
           "title": "Arrivée en avance, file sécurité Statue City Cruises",
           "address": "Castle Clinton, Battery Park",
           "durationLabel": "30 min avant créneau",
-          "order": 21
+          "order": 1
         },
         {
           "id": "item-22",
@@ -313,7 +280,7 @@
           "title": "Croisière + visite Liberty Island + Ellis Island (aller-retour)",
           "address": "Battery Park ↔ îles",
           "durationLabel": "3h",
-          "order": 22
+          "order": 2
         },
         {
           "id": "item-23",
@@ -324,7 +291,7 @@
           "title": "Déjeuner rapide vers Financial District",
           "address": "Battery Park → FiDi",
           "durationLabel": "15 min trajet + repas",
-          "order": 23
+          "order": 3
         },
         {
           "id": "item-24",
@@ -335,7 +302,7 @@
           "title": "Trajet vers 9/11 Memorial",
           "address": "Battery Park → WTC (métro ou 10 min à pied)",
           "durationLabel": "10-15 min",
-          "order": 24
+          "order": 4
         },
         {
           "id": "item-25",
@@ -346,181 +313,106 @@
           "title": "Mémorial du 11 septembre + Musée (visite complète)",
           "address": "180 Greenwich St",
           "durationLabel": "2h30",
-          "order": 25
+          "order": 5
         },
         {
           "id": "item-26",
           "dayId": "day-4",
           "type": "activity",
           "startTime": "16:00",
-          "endTime": "18:00",
+          "endTime": "18:15",
           "title": "Flânerie Financial District / retour hôtel tranquille",
           "address": "",
           "durationLabel": "libre",
-          "order": 26
+          "order": 6
         },
         {
           "id": "item-27",
           "dayId": "day-5",
           "type": "activity",
-          "startTime": "08:00",
-          "endTime": "08:30",
-          "title": "Petit-déjeuner + trajet vers Downtown Manhattan Heliport",
-          "address": "Hôtel → South Ferry (métro 1)",
-          "durationLabel": "20-30 min",
-          "order": 27
+          "startTime": "09:15",
+          "endTime": "10:05",
+          "title": "Petit-déjeuner + trajet vers point de départ food tour",
+          "address": "Hôtel → Lower East Side",
+          "durationLabel": "20-30 min trajet",
+          "order": 0
         },
         {
           "id": "item-28",
           "dayId": "day-5",
           "type": "activity",
-          "startTime": "08:30",
-          "endTime": "09:00",
-          "title": "Check-in héliport (30 min avant vol)",
-          "address": "Pier 6, East River",
-          "durationLabel": "30 min",
-          "order": 28
+          "startTime": "10:05",
+          "endTime": "12:35",
+          "title": "Food tour à pied (2h30, 6-8 dégustations)",
+          "address": "Lower East Side / Chinatown / Little Italy",
+          "durationLabel": "2h30",
+          "order": 1
         },
         {
           "id": "item-29",
           "dayId": "day-5",
           "type": "activity",
-          "startTime": "09:00",
-          "endTime": "09:30",
-          "title": "Vol hélicoptère 30 minutes au-dessus de NYC",
-          "address": "",
-          "durationLabel": "30 min",
-          "order": 29
+          "startTime": "12:35",
+          "endTime": "13:30",
+          "title": "Flânerie digestive : SoHo, Greenwich Village",
+          "address": "Quartiers voisins, à pied",
+          "durationLabel": "libre",
+          "order": 2
         },
         {
           "id": "item-30",
           "dayId": "day-5",
           "type": "transit",
-          "startTime": "09:30",
-          "endTime": "10:15",
-          "title": "Trajet vers Gun For Hire (Uber/Lyft depuis Downtown Manhattan, ~17 miles)",
-          "address": "South Ferry → Woodland Park NJ",
+          "startTime": "13:30",
+          "endTime": "14:15",
+          "title": "Trajet vers Gun For Hire (Uber/Lyft depuis Manhattan, ~17 miles)",
+          "address": "Manhattan → Woodland Park NJ",
           "durationLabel": "40-45 min en voiture",
-          "order": 30
+          "order": 3
         },
         {
           "id": "item-31",
           "dayId": "day-5",
           "type": "activity",
-          "startTime": "10:15",
-          "endTime": "12:00",
+          "startTime": "14:15",
+          "endTime": "16:00",
           "title": "Stand de tir Gun For Hire (session ~1h + attente/briefing sécurité)",
           "address": "Woodland Park, NJ",
           "durationLabel": "1h45 sur place",
-          "order": 31
+          "order": 4
         },
         {
           "id": "item-32",
           "dayId": "day-5",
           "type": "activity",
-          "startTime": "12:00",
-          "endTime": "12:45",
+          "startTime": "16:00",
+          "endTime": "16:45",
           "title": "Retour vers Manhattan (Uber/Lyft)",
           "address": "Woodland Park → Manhattan",
           "durationLabel": "40-45 min",
-          "order": 32
+          "order": 5
         },
         {
           "id": "item-33",
           "dayId": "day-5",
           "type": "activity",
-          "startTime": "12:45",
-          "endTime": "13:30",
-          "title": "Déjeuner tardif libre",
+          "startTime": "16:45",
+          "endTime": "19:00",
+          "title": "Dîner libre + soirée tranquille",
           "address": "",
-          "durationLabel": "45 min",
-          "order": 33
+          "durationLabel": "",
+          "order": 6
         },
         {
           "id": "item-34",
-          "dayId": "day-5",
-          "type": "activity",
-          "startTime": "13:30",
-          "endTime": "17:00",
-          "title": "Après-midi libre : Coney Island (plage, promenade, Luna Park)",
-          "address": "Manhattan → Coney Island (métro D/F/N/Q, ~50 min)",
-          "durationLabel": "aller-retour ~1h40 + visite",
-          "order": 34
-        },
-        {
-          "id": "item-35",
-          "dayId": "day-5",
-          "type": "activity",
-          "startTime": "17:00",
-          "endTime": "19:00",
-          "title": "Retour + dîner libre",
-          "address": "",
-          "order": 35
-        },
-        {
-          "id": "item-36",
           "dayId": "day-6",
-          "type": "transit",
+          "type": "activity",
           "startTime": "10:30",
-          "endTime": "11:00",
-          "title": "Trajet vers point de départ food tour (souvent LES/Chinatown)",
-          "address": "Hôtel → Lower East Side",
-          "durationLabel": "20-30 min",
-          "order": 36
-        },
-        {
-          "id": "item-37",
-          "dayId": "day-6",
-          "type": "activity",
-          "startTime": "11:00",
-          "endTime": "13:30",
-          "title": "Food tour à pied (2h30, 6-8 dégustations)",
-          "address": "Lower East Side / Chinatown / Little Italy",
-          "durationLabel": "2h30",
-          "order": 37
-        },
-        {
-          "id": "item-38",
-          "dayId": "day-6",
-          "type": "activity",
-          "startTime": "13:30",
-          "endTime": "16:00",
-          "title": "Flânerie digestive : SoHo, Greenwich Village, Washington Square",
-          "address": "Quartiers voisins, à pied",
-          "durationLabel": "libre",
-          "order": 38
-        },
-        {
-          "id": "item-39",
-          "dayId": "day-6",
-          "type": "transit",
-          "startTime": "16:00",
-          "endTime": "16:45",
-          "title": "Trajet vers Times Square / Broadway",
-          "address": "Village → Times Sq (métro)",
-          "durationLabel": "20-30 min",
-          "order": 39
-        },
-        {
-          "id": "item-40",
-          "dayId": "day-6",
-          "type": "activity",
-          "startTime": "16:45",
-          "endTime": "19:00",
-          "title": "Flânerie Times Square + Broadway (ambiance de nuit tombante, boutiques)",
-          "address": "Midtown",
-          "durationLabel": "libre",
-          "order": 40
-        },
-        {
-          "id": "item-41",
-          "dayId": "day-6",
-          "type": "activity",
-          "startTime": "19:00",
-          "endTime": "21:30",
-          "title": "Dîner + soirée libre (spectacle Broadway optionnel si billets pris à part)",
-          "address": "",
-          "order": 41
+          "endTime": "17:00",
+          "title": "Coney Island : plage, promenade, Luna Park",
+          "address": "Manhattan → Coney Island (métro D/F/N/Q, ~50 min)",
+          "durationLabel": "journée",
+          "order": 1
         },
         {
           "id": "item-42",
@@ -531,7 +423,7 @@
           "title": "Petit-déjeuner + check-out hôtel (bagages)",
           "address": "",
           "durationLabel": "30 min",
-          "order": 42
+          "order": 0
         },
         {
           "id": "item-43",
@@ -542,7 +434,7 @@
           "title": "Dernière balade : Central Park ou 5th Avenue / shopping souvenirs",
           "address": "Selon hôtel",
           "durationLabel": "2h max",
-          "order": 43
+          "order": 1
         },
         {
           "id": "item-44",
@@ -553,7 +445,7 @@
           "title": "Déjeuner léger près de Penn Station",
           "address": "",
           "durationLabel": "45 min",
-          "order": 44
+          "order": 2
         },
         {
           "id": "item-45",
@@ -564,7 +456,7 @@
           "title": "Trajet vers Newark (NJ Transit + AirTrain depuis Penn Station)",
           "address": "Penn Station → EWR",
           "durationLabel": "45 min",
-          "order": 45
+          "order": 3
         },
         {
           "id": "item-46",
@@ -575,7 +467,7 @@
           "title": "Marge de sécurité + enregistrement + sécurité aéroport",
           "address": "EWR",
           "durationLabel": "2h30 avant vol (recommandé)",
-          "order": 46
+          "order": 4
         },
         {
           "id": "item-47",
@@ -585,7 +477,7 @@
           "endTime": "17:45",
           "title": "Attente porte d'embarquement",
           "address": "EWR",
-          "order": 47
+          "order": 5
         },
         {
           "id": "item-48",
@@ -595,7 +487,106 @@
           "endTime": "",
           "title": "Décollage Newark",
           "address": "",
-          "order": 48
+          "order": 6
+        },
+        {
+          "id": "item-reorg-1",
+          "dayId": "day-2",
+          "type": "transit",
+          "startTime": "16:30",
+          "endTime": "17:15",
+          "title": "Trajet retour vers Midtown (métro/taxi)",
+          "address": "Downtown Manhattan Heliport → 34th St",
+          "durationLabel": "40-45 min",
+          "order": 5
+        },
+        {
+          "id": "item-reorg-2",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "17:15",
+          "endTime": "19:00",
+          "title": "Temps libre / shopping 5th Avenue avant l'Empire State",
+          "address": "Midtown",
+          "durationLabel": "libre",
+          "order": 6
+        },
+        {
+          "id": "item-reorg-3",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "19:00",
+          "endTime": "20:30",
+          "title": "Visite Empire State Building (billet + attente + observatoire, vue de nuit)",
+          "address": "34th St, Midtown",
+          "durationLabel": "1h30",
+          "order": 7
+        },
+        {
+          "id": "item-reorg-4",
+          "dayId": "day-2",
+          "type": "activity",
+          "startTime": "20:30",
+          "endTime": "22:00",
+          "title": "Dîner tardif dans Midtown + retour hôtel",
+          "address": "",
+          "durationLabel": "",
+          "order": 8
+        },
+        {
+          "id": "item-reorg-5",
+          "dayId": "day-4",
+          "type": "transit",
+          "startTime": "18:15",
+          "endTime": "18:55",
+          "title": "Trajet vers point de départ tour speakeasy",
+          "address": "Financial District → 1er bar (souvent LES/Village)",
+          "durationLabel": "35-40 min",
+          "order": 7
+        },
+        {
+          "id": "item-reorg-6",
+          "dayId": "day-4",
+          "type": "activity",
+          "startTime": "18:55",
+          "endTime": "21:25",
+          "title": "Visite guidée de 3 speakeasy (tour organisé, ~2h30)",
+          "address": "Lower East Side / Greenwich Village",
+          "durationLabel": "2h30",
+          "order": 8
+        },
+        {
+          "id": "item-reorg-7",
+          "dayId": "day-4",
+          "type": "activity",
+          "startTime": "21:25",
+          "endTime": "22:00",
+          "title": "Retour hôtel en métro",
+          "address": "",
+          "durationLabel": "20-30 min",
+          "order": 9
+        },
+        {
+          "id": "item-reorg-8",
+          "dayId": "day-6",
+          "type": "activity",
+          "startTime": "09:30",
+          "endTime": "10:30",
+          "title": "Petit-déjeuner + trajet vers Coney Island",
+          "address": "Hôtel → Coney Island (métro D/F/N/Q)",
+          "durationLabel": "~50 min",
+          "order": 0
+        },
+        {
+          "id": "item-reorg-9",
+          "dayId": "day-6",
+          "type": "activity",
+          "startTime": "17:00",
+          "endTime": "19:30",
+          "title": "Retour Manhattan + dîner libre",
+          "address": "",
+          "durationLabel": "",
+          "order": 2
         }
       ],
       "notes": [
@@ -641,8 +632,8 @@
         }
       ],
       "createdAt": "2026-09-01T12:24:16.202Z",
-      "updatedAt": "2026-09-01T15:00:43.118Z"
+      "updatedAt": "2026-09-01T15:35:56.917Z"
     }
   ],
-  "generatedAt": "2026-09-01T15:00:51.131Z"
+  "generatedAt": "2026-09-01T15:36:04.932Z"
 }
