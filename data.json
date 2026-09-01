@@ -576,16 +576,6 @@
           "title": "Décollage Newark",
           "address": "",
           "order": 6
-        },
-        {
-          "id": "item-1788280400941",
-          "dayId": "day-1",
-          "type": "activity",
-          "startTime": "21:00",
-          "endTime": "21:30",
-          "title": "Test activité créée",
-          "address": "",
-          "order": 5
         }
       ],
       "notes": [
@@ -631,8 +621,8 @@
         }
       ],
       "createdAt": "2026-09-01T12:24:16.202Z",
-      "updatedAt": "2026-09-01T16:33:23.882Z"
+      "updatedAt": "2026-09-01T16:43:20.843Z"
     }
   ],
-  "generatedAt": "2026-09-01T16:33:31.911Z"
+  "generatedAt": "2026-09-01T16:43:28.852Z"
 }
