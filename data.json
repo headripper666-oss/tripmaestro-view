@@ -240,10 +240,10 @@
         },
         {
           "id": "item-16",
-          "dayId": "day-3",
+          "dayId": "day-4",
           "type": "activity",
-          "startTime": "15:00",
-          "endTime": "19:00",
+          "startTime": "14:30",
+          "endTime": "18:30",
           "title": "Temps libre / repos avant la soirée (shopping 5th Ave si souhaité)",
           "address": "",
           "durationLabel": "libre",
@@ -306,10 +306,10 @@
         },
         {
           "id": "item-25",
-          "dayId": "day-4",
+          "dayId": "day-3",
           "type": "activity",
-          "startTime": "13:30",
-          "endTime": "16:00",
+          "startTime": "15:45",
+          "endTime": "18:15",
           "title": "Mémorial du 11 septembre + Musée (visite complète)",
           "address": "180 Greenwich St",
           "durationLabel": "2h30",
@@ -632,8 +632,8 @@
         }
       ],
       "createdAt": "2026-09-01T12:24:16.202Z",
-      "updatedAt": "2026-09-01T15:35:56.917Z"
+      "updatedAt": "2026-09-01T15:39:33.676Z"
     }
   ],
-  "generatedAt": "2026-09-01T15:36:04.932Z"
+  "generatedAt": "2026-09-01T15:39:41.703Z"
 }
